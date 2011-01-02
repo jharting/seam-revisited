@@ -1,0 +1,38 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite">
+    <groups>
+    </groups>
+    <test name="Command line test">
+      <class name="org.jboss.seam.test.unit.RemotingTest">
+        <test-method status="PASS" signature="testBagWrapper()" name="testBagWrapper" duration-ms="5" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testConstraints()" name="testConstraints" duration-ms="1538" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:48Z">
+        </test-method>
+        <test-method status="PASS" signature="testBeanWrapper()" name="testBeanWrapper" duration-ms="0" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testBaseWrapper()" name="testBaseWrapper" duration-ms="1" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testConversionScore()" name="testConversionScore" duration-ms="0" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testInterfaceGenerator()" name="testInterfaceGenerator" duration-ms="10" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testNullWrapper()" name="testNullWrapper" duration-ms="3" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testDateWrapper()" name="testDateWrapper" duration-ms="5" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testStringWrapper()" name="testStringWrapper" duration-ms="2" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testNumberWrapper()" name="testNumberWrapper" duration-ms="2" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testBooleanWrapper()" name="testBooleanWrapper" duration-ms="17" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testWrapperFactory()" name="testWrapperFactory" duration-ms="16" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+        <test-method status="PASS" signature="testMapWrapper()" name="testMapWrapper" duration-ms="29" started-at="2011-01-02T17:55:46Z" finished-at="2011-01-02T17:55:46Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

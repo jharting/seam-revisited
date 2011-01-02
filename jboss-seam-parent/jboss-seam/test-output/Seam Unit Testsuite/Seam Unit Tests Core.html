@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>TestNG:  Seam Unit Tests Core</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Seam Unit Tests Core</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>25/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 30 23:42:08 CET 2010</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1234 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='org.jboss.seam.test.unit.InterceptorTest.testBijectionInterceptor()'><b>testBijectionInterceptor</b><br>Test class: org.jboss.seam.test.unit.InterceptorTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.InterceptorTest@426295eb</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.DependencyTest.testCircularDependency()'><b>testCircularDependency</b><br>Test class: org.jboss.seam.test.unit.DependencyTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.DependencyTest@10d09ad3</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.DependencyTest.testClassDependency()'><b>testClassDependency</b><br>Test class: org.jboss.seam.test.unit.DependencyTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.DependencyTest@10d09ad3</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.ComponentTest.testComponent()'><b>testComponent</b><br>Test class: org.jboss.seam.test.unit.ComponentTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.ComponentTest@3747c1db</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.DependencyTest.testComponentByClassDependency()'><b>testComponentByClassDependency</b><br>Test class: org.jboss.seam.test.unit.DependencyTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.DependencyTest@10d09ad3</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.ContextTest.testContextManagement()'><b>testContextManagement</b><br>Test class: org.jboss.seam.test.unit.ContextTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.ContextTest@48082d37</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.ContextTest.testContexts()'><b>testContexts</b><br>Test class: org.jboss.seam.test.unit.ContextTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.ContextTest@48082d37</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.InterceptorTest.testConversationInterceptor()'><b>testConversationInterceptor</b><br>Test class: org.jboss.seam.test.unit.InterceptorTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.InterceptorTest@426295eb</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.InterceptorTest.testConversationalInterceptor()'><b>testConversationalInterceptor</b><br>Test class: org.jboss.seam.test.unit.InterceptorTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.InterceptorTest@426295eb</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.InterceptorTest.testCyclicDependencyThowsException()'><b>testCyclicDependencyThowsException</b><br>Test class: org.jboss.seam.test.unit.InterceptorTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.InterceptorTest@426295eb</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.DependencyTest.testDependency()'><b>testDependency</b><br>Test class: org.jboss.seam.test.unit.DependencyTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.DependencyTest@10d09ad3</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.InitializationTest.testEntityHomeConfiguration()'><b>testEntityHomeConfiguration</b><br>Test class: org.jboss.seam.test.unit.InitializationTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.InitializationTest@360dc67e</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.InitializationTest.testEnumPropertyAssignment()'><b>testEnumPropertyAssignment</b><br>Test class: org.jboss.seam.test.unit.InitializationTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.InitializationTest@360dc67e</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.ExpressionsTest.testExpressionResolvedInFacesELContext()'><b>testExpressionResolvedInFacesELContext</b><br>Test class: org.jboss.seam.test.unit.ExpressionsTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.ExpressionsTest@6f649b44</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.InitializationTest.testInitialization()'><b>testInitialization</b><br>Test class: org.jboss.seam.test.unit.InitializationTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.InitializationTest@360dc67e</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.DependencyTest.testNoComponents()'><b>testNoComponents</b><br>Test class: org.jboss.seam.test.unit.DependencyTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.DependencyTest@10d09ad3</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.DependencyTest.testNoDependencies()'><b>testNoDependencies</b><br>Test class: org.jboss.seam.test.unit.DependencyTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.DependencyTest@10d09ad3</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.DependencyTest.testNotInstalled()'><b>testNotInstalled</b><br>Test class: org.jboss.seam.test.unit.DependencyTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.DependencyTest@10d09ad3</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.DependencyTest.testOverride()'><b>testOverride</b><br>Test class: org.jboss.seam.test.unit.DependencyTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.DependencyTest@10d09ad3</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.DependencyTest.testOverride2()'><b>testOverride2</b><br>Test class: org.jboss.seam.test.unit.DependencyTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.DependencyTest@10d09ad3</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.InterceptorTest.testReentrantBijection()'><b>testReentrantBijection</b><br>Test class: org.jboss.seam.test.unit.InterceptorTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.InterceptorTest@426295eb</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.InterceptorTest.testRemoveInterceptor()'><b>testRemoveInterceptor</b><br>Test class: org.jboss.seam.test.unit.InterceptorTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.InterceptorTest@426295eb</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.ComponentTest.testStaticMethods()'><b>testStaticMethods</b><br>Test class: org.jboss.seam.test.unit.ComponentTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.ComponentTest@3747c1db</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.DependencyTest.testUnmetDueToOverride()'><b>testUnmetDueToOverride</b><br>Test class: org.jboss.seam.test.unit.DependencyTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.DependencyTest@10d09ad3</td></tr>
+<tr>
+<td title='org.jboss.seam.test.unit.InterceptorTest.testValidationInterceptor()'><b>testValidationInterceptor</b><br>Test class: org.jboss.seam.test.unit.InterceptorTest</td>
+<td></td>
+<td>0</td>
+<td>org.jboss.seam.test.unit.InterceptorTest@426295eb</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="kraken" name="org.jboss.seam.test.unit.PageflowTest" tests="8" failures="0" timestamp="30 Dec 2010 22:42:11 GMT" time="0.884" errors="0">
+  <testcase name="testOrderPageflow" time="0.279" classname="org.jboss.seam.test.unit.PageflowTest"/>
+  <testcase name="testPageflowWithStartPage" time="0.048" classname="org.jboss.seam.test.unit.PageflowTest"/>
+  <testcase name="testPageflowWithStartPageAttribute" time="0.045" classname="org.jboss.seam.test.unit.PageflowTest"/>
+  <testcase name="testPageflowWithStartState" time="0.05" classname="org.jboss.seam.test.unit.PageflowTest"/>
+  <testcase name="testActorDirtyChecking" time="0.0020" classname="org.jboss.seam.test.unit.bpm.ActorTest"/>
+  <testcase name="testGetPageflowDefinitionFromXml" time="0.068" classname="org.jboss.seam.test.unit.bpm.JbpmTest"/>
+  <testcase name="testGetProcessDefinitionFromXml" time="0.057" classname="org.jboss.seam.test.unit.bpm.JbpmTest"/>
+  <testcase name="emptyPooledTaskListIfNoGroupActorIds" time="0.0050" classname="org.jboss.seam.test.unit.bpm.TaskListTest"/>
+</testsuite>

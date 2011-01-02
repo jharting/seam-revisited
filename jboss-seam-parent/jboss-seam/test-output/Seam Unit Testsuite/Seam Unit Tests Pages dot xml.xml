@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="kraken" name="org.jboss.seam.test.unit.PageActionsTest" tests="18" failures="0" timestamp="30 Dec 2010 22:42:11 GMT" time="0.266" errors="0">
+  <testcase name="testPostbackConditionOnPageAction" time="0.0040" classname="org.jboss.seam.test.unit.PageActionsTest"/>
+  <testcase name="testShortCircuitInMiddle" time="0.0010" classname="org.jboss.seam.test.unit.PageActionsTest"/>
+  <testcase name="testShortCircuitOnNonNullOutcome" time="0.0010" classname="org.jboss.seam.test.unit.PageActionsTest"/>
+  <testcase name="testShortCircuitOnNonNullOutcomeToSamePage" time="0.0010" classname="org.jboss.seam.test.unit.PageActionsTest"/>
+  <testcase name="testShortCircuitOnNonNullOutcomeWithRedirect" time="0.0010" classname="org.jboss.seam.test.unit.PageActionsTest"/>
+  <testcase name="testShortCircuitOnNullOutcome" time="0.0030" classname="org.jboss.seam.test.unit.PageActionsTest"/>
+  <testcase name="testGetAndResolveDescription" time="0.0" classname="org.jboss.seam.test.unit.PageDescriptorTest"/>
+  <testcase name="testHasDescription" time="0.0" classname="org.jboss.seam.test.unit.PageDescriptorTest"/>
+  <testcase name="testSwitchEnabledFlag" time="0.0" classname="org.jboss.seam.test.unit.PageDescriptorTest"/>
+  <testcase name="testConverterIsNullForNonFacesValueExpression" time="0.0010" classname="org.jboss.seam.test.unit.PageParamTest"/>
+  <testcase name="testDateConverter" time="0.0060" classname="org.jboss.seam.test.unit.PageParamTest"/>
+  <testcase name="testGetCallAction" time="0.0030" classname="org.jboss.seam.test.unit.PageParamTest"/>
+  <testcase name="testGetCallActionEscaped" time="0.0010" classname="org.jboss.seam.test.unit.PageParamTest"/>
+  <testcase name="testGetConverterById" time="0.0070" classname="org.jboss.seam.test.unit.PageParamTest"/>
+  <testcase name="testGetValidatorById" time="0.0010" classname="org.jboss.seam.test.unit.PageParamTest"/>
+  <testcase name="testValidateModelDisabled" time="0.0090" classname="org.jboss.seam.test.unit.PageParamTest"/>
+  <testcase name="testValidateModelWithInvalidValue" time="0.065" classname="org.jboss.seam.test.unit.PageParamTest"/>
+  <testcase name="testValidateModelWithValidValue" time="0.0010" classname="org.jboss.seam.test.unit.PageParamTest"/>
+</testsuite>

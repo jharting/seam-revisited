@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Command line test" failures="0" tests="13" time="1.643" errors="0">
+  <properties/>
+  <testcase name="testNullWrapper" time="0.0030" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testWrapperFactory" time="0.016" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testBooleanWrapper" time="0.017" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testNumberWrapper" time="0.0020" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testInterfaceGenerator" time="0.01" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testConversionScore" time="0.0" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testDateWrapper" time="0.0050" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testBagWrapper" time="0.0050" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testMapWrapper" time="0.029" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testBaseWrapper" time="0.0010" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testStringWrapper" time="0.0020" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testBeanWrapper" time="0.0" classname="org.jboss.seam.test.unit.RemotingTest"/>
+  <testcase name="testConstraints" time="1.538" classname="org.jboss.seam.test.unit.RemotingTest"/>
+</testsuite>

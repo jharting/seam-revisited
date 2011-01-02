@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="kraken" name="org.jboss.seam.test.unit.web.RewriteTest" tests="6" failures="0" timestamp="30 Dec 2010 22:42:11 GMT" time="0.033" errors="0">
+  <testcase name="testBasicInPattern" time="0.0020" classname="org.jboss.seam.test.unit.web.RewriteTest"/>
+  <testcase name="testBasicOutPattern" time="0.0010" classname="org.jboss.seam.test.unit.web.RewriteTest"/>
+  <testcase name="testMultiArgInPattern" time="0.0010" classname="org.jboss.seam.test.unit.web.RewriteTest"/>
+  <testcase name="testMultiArgOutPattern" time="0.0" classname="org.jboss.seam.test.unit.web.RewriteTest"/>
+  <testcase name="testSingleArgInPattern" time="0.0010" classname="org.jboss.seam.test.unit.web.RewriteTest"/>
+  <testcase name="testSingleArgOutPattern" time="0.0010" classname="org.jboss.seam.test.unit.web.RewriteTest"/>
+</testsuite>

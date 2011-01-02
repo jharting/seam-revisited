@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" configfailurepolicy="skip" verbose="0" name="Failed suite [Seam Unit Testsuite]" skipfailedinvocationcounts="false" parallel="false" annotations="JDK" data-provider-thread-count="10">
+  <test verbose="1" name="Seam Unit Tests Pages dot xml(failed)" junit="false" parallel="false" annotations="JDK">
+    <classes>
+      <class name="org.jboss.seam.test.unit.PageDescriptorTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class>
+      <class name="org.jboss.seam.test.unit.InterpolatorTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+      <class name="org.jboss.seam.test.unit.PageParamTest">
+        <methods>
+          <include name="testValidateModelWithInvalidValue"/>
+          <include name="tearDown"/>
+          <include name="testValidateModelWithValidValue"/>
+          <include name="setup"/>
+        </methods>
+      </class>
+      <class name="org.jboss.seam.test.unit.CoreTest">
+        <methods>
+          <include name="triggerComponentScan"/>
+        </methods>
+      </class>
+      <class name="org.jboss.seam.test.unit.bpm.TaskListTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class>
+      <class name="org.jboss.seam.test.unit.PageActionsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

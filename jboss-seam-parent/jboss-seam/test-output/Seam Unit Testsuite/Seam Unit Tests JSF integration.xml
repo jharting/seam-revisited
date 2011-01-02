@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="kraken" name="org.jboss.seam.test.unit.PhaseListenerTest" tests="5" failures="0" timestamp="30 Dec 2010 22:42:11 GMT" time="0.068" errors="0">
+  <testcase name="testSeamPhaseListener" time="0.025" classname="org.jboss.seam.test.unit.PhaseListenerTest"/>
+  <testcase name="testSeamPhaseListenerLongRunning" time="0.0060" classname="org.jboss.seam.test.unit.PhaseListenerTest"/>
+  <testcase name="testSeamPhaseListenerNewLongRunning" time="0.0050" classname="org.jboss.seam.test.unit.PhaseListenerTest"/>
+  <testcase name="testSeamPhaseListenerNonFacesRequest" time="0.0050" classname="org.jboss.seam.test.unit.PhaseListenerTest"/>
+  <testcase name="testSeamPhaseListenerRedirect" time="0.0050" classname="org.jboss.seam.test.unit.PhaseListenerTest"/>
+</testsuite>

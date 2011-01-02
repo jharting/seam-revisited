@@ -4,10 +4,11 @@
 
   <groupId>org.jboss.seam</groupId>
   <artifactId>jboss-seam-parent</artifactId>
+  <name>jboss-seam-parent</name>
   <version>2.3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <url>http://seamframework.org</url>
+  <url>http://seamframework.org/Seam2</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -25,13 +26,13 @@
       versions are only specified here, not in sub project poms.
       All dependencies for all modules should be listed out here -->
     <dependencies>
-
-      <!-- All Seam modules -->
-
+    
+     <!-- All Seam modules -->
       <dependency>
         <groupId>org.jboss.seam</groupId>
-        <artifactId>jboss-seam-core</artifactId>
+        <artifactId>jboss-seam</artifactId>
         <version>${version.seam}</version>
+        <type>ejb</type>
       </dependency>
 
       <dependency>
@@ -90,16 +91,9 @@
 
       <dependency>
         <groupId>org.jboss.seam</groupId>
-        <artifactId>jboss-seam-excel</artifactId>
-        <version>${version.seam}</version>
-      </dependency>
-
-      
-      <dependency>
-        <groupId>org.jboss.seam</groupId>
         <artifactId>jboss-seam-jul</artifactId>
         <version>${version.seam}</version>
-      </dependency>
+      </dependency>    
 
       <dependency>
         <groupId>javax.servlet</groupId>
@@ -225,13 +219,12 @@
         <groupId>org.jbpm.jbpm3</groupId>
         <artifactId>jbpm-jpdl</artifactId>
         <version>3.2.9</version>
-	<exclusions>
-		<exclusion>
-		<groupId>org.hibernate</groupId>
-		<artifactId>hibernate</artifactId>
-		</exclusion>
-	</exclusions>
-
+		<exclusions>
+			<exclusion>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate</artifactId>
+			</exclusion>
+		</exclusions>
       </dependency>
 
       <dependency>
@@ -1303,9 +1296,7 @@
       	<groupId>org.testng</groupId>
       	<artifactId>testng</artifactId>
       	<version>5.9</version>
-      	<type>jar</type>
       	<classifier>jdk15</classifier>
-      	<scope>test</scope>
       	<exclusions>
       		<exclusion>
       			<artifactId>junit</artifactId>
@@ -1398,20 +1389,39 @@
           <version>2.4</version>
         </plugin>
         <plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
-				</configuration>
-			</plugin>
-
-       
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<configuration>
+				<source>1.5</source>
+				<target>1.5</target>
+			</configuration>
+		</plugin>
+        <plugin>
+        	<groupId>org.apache.maven.plugins</groupId>
+        	<artifactId>maven-ejb-plugin</artifactId>
+        	<version>2.3</version>
+        	<configuration>
+          		<ejbVersion>3.0</ejbVersion>
+        	</configuration>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
   <dependencies>
   </dependencies>
   <modules>
+  	<module>jboss-seam-ui</module>
+  	<module>jboss-seam-debug</module>
+  	<module>jboss-seam-excel</module>
+  	<module>jboss-seam-flex</module>
+  	<module>jboss-seam-mail</module>
+  	<module>jboss-seam-pdf</module>
+  	<module>jboss-seam-remoting</module>
+  	<module>jboss-seam-resteasy</module>
+  	<module>jboss-seam-rss</module>
+  	<module>jboss-seam-wicket</module>
+  	<module>jboss-seam-ioc</module>
+  	<module>jboss-seam-jul</module>
+  	<module>jboss-seam</module>
   </modules>
 </project>

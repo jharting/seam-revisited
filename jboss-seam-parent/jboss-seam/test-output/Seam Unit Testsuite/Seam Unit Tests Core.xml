@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="kraken" name="org.jboss.seam.test.unit.ComponentTest" tests="25" failures="0" timestamp="30 Dec 2010 22:42:10 GMT" time="1.234" errors="0">
+  <testcase name="testComponent" time="0.016" classname="org.jboss.seam.test.unit.ComponentTest"/>
+  <testcase name="testStaticMethods" time="0.0" classname="org.jboss.seam.test.unit.ComponentTest"/>
+  <testcase name="testContextManagement" time="0.066" classname="org.jboss.seam.test.unit.ContextTest"/>
+  <testcase name="testContexts" time="0.0050" classname="org.jboss.seam.test.unit.ContextTest"/>
+  <testcase name="testCircularDependency" time="0.0030" classname="org.jboss.seam.test.unit.DependencyTest"/>
+  <testcase name="testClassDependency" time="0.0010" classname="org.jboss.seam.test.unit.DependencyTest"/>
+  <testcase name="testComponentByClassDependency" time="0.0010" classname="org.jboss.seam.test.unit.DependencyTest"/>
+  <testcase name="testDependency" time="0.0010" classname="org.jboss.seam.test.unit.DependencyTest"/>
+  <testcase name="testNoComponents" time="0.0" classname="org.jboss.seam.test.unit.DependencyTest"/>
+  <testcase name="testNoDependencies" time="0.0" classname="org.jboss.seam.test.unit.DependencyTest"/>
+  <testcase name="testNotInstalled" time="0.0" classname="org.jboss.seam.test.unit.DependencyTest"/>
+  <testcase name="testOverride" time="0.0010" classname="org.jboss.seam.test.unit.DependencyTest"/>
+  <testcase name="testOverride2" time="0.0010" classname="org.jboss.seam.test.unit.DependencyTest"/>
+  <testcase name="testUnmetDueToOverride" time="0.0010" classname="org.jboss.seam.test.unit.DependencyTest"/>
+  <testcase name="testExpressionResolvedInFacesELContext" time="0.045" classname="org.jboss.seam.test.unit.ExpressionsTest"/>
+  <testcase name="testEntityHomeConfiguration" time="0.493" classname="org.jboss.seam.test.unit.InitializationTest"/>
+  <testcase name="testEnumPropertyAssignment" time="0.264" classname="org.jboss.seam.test.unit.InitializationTest"/>
+  <testcase name="testInitialization" time="0.219" classname="org.jboss.seam.test.unit.InitializationTest"/>
+  <testcase name="testBijectionInterceptor" time="0.0090" classname="org.jboss.seam.test.unit.InterceptorTest"/>
+  <testcase name="testConversationInterceptor" time="0.0080" classname="org.jboss.seam.test.unit.InterceptorTest"/>
+  <testcase name="testConversationalInterceptor" time="0.0040" classname="org.jboss.seam.test.unit.InterceptorTest"/>
+  <testcase name="testCyclicDependencyThowsException" time="0.0050" classname="org.jboss.seam.test.unit.InterceptorTest"/>
+  <testcase name="testReentrantBijection" time="0.0070" classname="org.jboss.seam.test.unit.InterceptorTest"/>
+  <testcase name="testRemoveInterceptor" time="0.0040" classname="org.jboss.seam.test.unit.InterceptorTest"/>
+  <testcase name="testValidationInterceptor" time="0.01" classname="org.jboss.seam.test.unit.InterceptorTest"/>
+</testsuite>

@@ -1,0 +1,464 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite">
+    <groups>
+    </groups>
+    <test name="Command line test">
+      <class name="org.jboss.seam.test.unit.MailTest">
+        <test-method status="PASS" signature="testMissingUsernameMailSession()" name="testMissingUsernameMailSession" duration-ms="2" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testJndiMailSession()" name="testJndiMailSession" duration-ms="3" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testMeldwareUser()" name="testMeldwareUser" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testAuthenticatedMailSession()" name="testAuthenticatedMailSession" duration-ms="8" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testSslMailSession()" name="testSslMailSession" duration-ms="3" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testAuthenticatedSslMailSession()" name="testAuthenticatedSslMailSession" duration-ms="2" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testBasicSslMailSession()" name="testBasicSslMailSession" duration-ms="3" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testMissingPasswordMailSession()" name="testMissingPasswordMailSession" duration-ms="2" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testAdminMeldwareUser()" name="testAdminMeldwareUser" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testBasicMailSession()" name="testBasicMailSession" duration-ms="2" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testMailSession()" name="testMailSession" duration-ms="18" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.PageParamTest">
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetCallAction()" name="testGetCallAction" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[EL expressions are not allowed in actionOutcome parameter]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: EL expressions are not allowed in actionOutcome parameter
+	at org.jboss.seam.navigation.Pages.callAction(Pages.java:690)
+	at org.jboss.seam.navigation.Pages.preRender(Pages.java:331)
+	at org.jboss.seam.test.unit.PageParamTest.testGetCallAction(PageParamTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:607)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:956)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:759)
+	at org.testng.TestRunner.privateRun(TestRunner.java:592)
+	at org.testng.TestRunner.run(TestRunner.java:486)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:299)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:204)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:877)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:842)
+	at org.testng.TestNG.run(TestNG.java:751)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:62)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:141)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="testValidateModelWithInvalidValue()" name="testValidateModelWithInvalidValue" duration-ms="44" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+          <exception class="javax.faces.validator.ValidatorException">
+            <message>
+              <![CDATA['value' parameter is invalid: délka musí být mezi 3 a 10]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[javax.faces.validator.ValidatorException: 'value' parameter is invalid: délka musí být mezi 3 a 10
+	at org.jboss.seam.navigation.Param.validateConvertedValue(Param.java:271)
+	at org.jboss.seam.test.unit.PageParamTest.testValidateModelWithInvalidValue(PageParamTest.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:607)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:956)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:759)
+	at org.testng.TestRunner.privateRun(TestRunner.java:592)
+	at org.testng.TestRunner.run(TestRunner.java:486)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:299)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:204)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:877)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:842)
+	at org.testng.TestNG.run(TestNG.java:751)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:62)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:141)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="8" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="7" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testConverterIsNullForNonFacesValueExpression()" name="testConverterIsNullForNonFacesValueExpression" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testValidateModelDisabled()" name="testValidateModelDisabled" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetConverterById()" name="testGetConverterById" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="23" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="6" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetCallActionEscaped()" name="testGetCallActionEscaped" duration-ms="5" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[EL expressions are not allowed in actionOutcome parameter]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: EL expressions are not allowed in actionOutcome parameter
+	at org.jboss.seam.navigation.Pages.callAction(Pages.java:690)
+	at org.jboss.seam.navigation.Pages.preRender(Pages.java:331)
+	at org.jboss.seam.test.unit.PageParamTest.testGetCallActionEscaped(PageParamTest.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:607)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:956)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:759)
+	at org.testng.TestRunner.privateRun(TestRunner.java:592)
+	at org.testng.TestRunner.run(TestRunner.java:486)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:327)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:299)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:204)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:877)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:842)
+	at org.testng.TestNG.run(TestNG.java:751)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:62)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:141)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="7" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testDateConverter()" name="testDateConverter" duration-ms="5" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="7" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetValidatorById()" name="testGetValidatorById" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="7" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="7" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="7" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testValidateModelWithValidValue()" name="testValidateModelWithValidValue" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.web.MultipartRequestTest">
+        <test-method status="PASS" signature="testMultipartRequest()" name="testMultipartRequest" duration-ms="4" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.InterceptorTest">
+        <test-method status="PASS" signature="testConversationInterceptor()" name="testConversationInterceptor" duration-ms="15" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testReentrantBijection()" name="testReentrantBijection" duration-ms="10" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testCyclicDependencyThowsException()" name="testCyclicDependencyThowsException" duration-ms="8" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testRemoveInterceptor()" name="testRemoveInterceptor" duration-ms="6" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testConversationalInterceptor()" name="testConversationalInterceptor" duration-ms="6" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testBijectionInterceptor()" name="testBijectionInterceptor" duration-ms="13" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testValidationInterceptor()" name="testValidationInterceptor" duration-ms="18" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.CoreTest">
+        <test-method status="PASS" signature="triggerComponentScan()" name="triggerComponentScan" is-config="true" duration-ms="919" started-at="2011-01-02T17:55:24Z" finished-at="2011-01-02T17:55:24Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.QueryTest">
+        <test-method status="PASS" signature="testCountQuery()" name="testCountQuery" duration-ms="3" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.web.ConditionalRequestTest">
+        <test-method status="PASS" signature="testNotModifiedOnlyLastModified()" name="testNotModifiedOnlyLastModified" duration-ms="1" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testNotModifiedOnlyETag()" name="testNotModifiedOnlyETag" duration-ms="1" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testNotModifiedETagLastModified()" name="testNotModifiedETagLastModified" duration-ms="0" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testModifiedOnlyETag()" name="testModifiedOnlyETag" duration-ms="4" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testModifiedOnlyLastModified()" name="testModifiedOnlyLastModified" duration-ms="0" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testModifiedETagLastModified()" name="testModifiedETagLastModified" duration-ms="2" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.InitializationTest">
+        <test-method status="PASS" signature="testEntityHomeConfiguration()" name="testEntityHomeConfiguration" duration-ms="334" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testEnumPropertyAssignment()" name="testEnumPropertyAssignment" duration-ms="259" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testInitialization()" name="testInitialization" duration-ms="453" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.ContextTest">
+        <test-method status="PASS" signature="testContextManagement()" name="testContextManagement" duration-ms="45" started-at="2011-01-02T17:55:24Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testContexts()" name="testContexts" duration-ms="5" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.PageConversationControlTest">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="24" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="10" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="10" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testBeginNestedAndEndRootConversation()" name="testBeginNestedAndEndRootConversation" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testBeginNestedAndEndConversation()" name="testBeginNestedAndEndConversation" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testBeginAndEndRootConversation()" name="testBeginAndEndRootConversation" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.PhaseListenerTest">
+        <test-method status="PASS" signature="testSeamPhaseListenerRedirect()" name="testSeamPhaseListenerRedirect" duration-ms="3" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testSeamPhaseListenerLongRunning()" name="testSeamPhaseListenerLongRunning" duration-ms="4" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testSeamPhaseListenerNewLongRunning()" name="testSeamPhaseListenerNewLongRunning" duration-ms="15" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testSeamPhaseListenerNonFacesRequest()" name="testSeamPhaseListenerNonFacesRequest" duration-ms="3" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testSeamPhaseListener()" name="testSeamPhaseListener" duration-ms="4" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.InterpolatorTest">
+        <test-method status="PASS" signature="testInterpolation()" name="testInterpolation" duration-ms="8" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.bpm.TaskListTest">
+        <test-method status="PASS" signature="emptyPooledTaskListIfNoGroupActorIds()" name="emptyPooledTaskListIfNoGroupActorIds" duration-ms="8" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="setUp()" name="setUp" is-config="true" duration-ms="194" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.bpm.JbpmTest">
+        <test-method status="PASS" signature="testGetPageflowDefinitionFromXml()" name="testGetPageflowDefinitionFromXml" duration-ms="73" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetProcessDefinitionFromXml()" name="testGetProcessDefinitionFromXml" duration-ms="69" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.web.RewriteTest">
+        <test-method status="PASS" signature="testMultiArgOutPattern()" name="testMultiArgOutPattern" duration-ms="0" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testSingleArgOutPattern()" name="testSingleArgOutPattern" duration-ms="0" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testMultiArgInPattern()" name="testMultiArgInPattern" duration-ms="1" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testBasicOutPattern()" name="testBasicOutPattern" duration-ms="1" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testBasicInPattern()" name="testBasicInPattern" duration-ms="1" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testSingleArgInPattern()" name="testSingleArgInPattern" duration-ms="0" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.HomeTest">
+        <test-method status="PASS" signature="testGetEntityClassOverride()" name="testGetEntityClassOverride" duration-ms="3" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testCreateInstance()" name="testCreateInstance" duration-ms="0" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testReadEntityClassFromTypeParameter()" name="testReadEntityClassFromTypeParameter" duration-ms="4" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.PageDescriptorTest">
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="23" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="8" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="8" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testSwitchEnabledFlag()" name="testSwitchEnabledFlag" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testHasDescription()" name="testHasDescription" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testGetAndResolveDescription()" name="testGetAndResolveDescription" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.web.IdentityRequestWrapperTest">
+        <test-method status="PASS" signature="testWithSeamSecurityDisabled()" name="testWithSeamSecurityDisabled" duration-ms="0" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testWithSeamSecurityEnabled()" name="testWithSeamSecurityEnabled" duration-ms="2" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.DependencyTest">
+        <test-method status="PASS" signature="testComponentByClassDependency()" name="testComponentByClassDependency" duration-ms="0" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testNoDependencies()" name="testNoDependencies" duration-ms="1" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testNotInstalled()" name="testNotInstalled" duration-ms="1" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testUnmetDueToOverride()" name="testUnmetDueToOverride" duration-ms="1" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testDependency()" name="testDependency" duration-ms="0" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testClassDependency()" name="testClassDependency" duration-ms="0" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testOverride2()" name="testOverride2" duration-ms="3" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testCircularDependency()" name="testCircularDependency" duration-ms="0" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testNoComponents()" name="testNoComponents" duration-ms="0" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+        <test-method status="PASS" signature="testOverride()" name="testOverride" duration-ms="0" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.ExpressionsTest">
+        <test-method status="PASS" signature="testExpressionResolvedInFacesELContext()" name="testExpressionResolvedInFacesELContext" duration-ms="45" started-at="2011-01-02T17:55:25Z" finished-at="2011-01-02T17:55:25Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.bpm.ActorTest">
+        <test-method status="PASS" signature="testActorDirtyChecking()" name="testActorDirtyChecking" duration-ms="1" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.PageActionsTest">
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="20" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testShortCircuitInMiddle()" name="testShortCircuitInMiddle" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="11" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="17" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testShortCircuitOnNullOutcome()" name="testShortCircuitOnNullOutcome" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testShortCircuitOnNonNullOutcome()" name="testShortCircuitOnNonNullOutcome" duration-ms="8" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="12" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testShortCircuitOnNonNullOutcomeWithRedirect()" name="testShortCircuitOnNonNullOutcomeWithRedirect" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testPostbackConditionOnPageAction()" name="testPostbackConditionOnPageAction" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testShortCircuitOnNonNullOutcomeToSamePage()" name="testShortCircuitOnNonNullOutcomeToSamePage" duration-ms="1" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="16" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()" name="setup" is-config="true" duration-ms="11" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="0" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.ComponentTest">
+        <test-method status="PASS" signature="testComponent()" name="testComponent" duration-ms="14" started-at="2011-01-02T17:55:24Z" finished-at="2011-01-02T17:55:24Z">
+        </test-method>
+        <test-method status="PASS" signature="testStaticMethods()" name="testStaticMethods" duration-ms="1" started-at="2011-01-02T17:55:24Z" finished-at="2011-01-02T17:55:24Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.PageflowConfigurationTest">
+        <test-method status="PASS" signature="testOne()" name="testOne" duration-ms="324" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.PasswordHashTest">
+        <test-method status="PASS" signature="testMd5Hash()" name="testMd5Hash" duration-ms="9" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testShaHash()" name="testShaHash" duration-ms="1" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+      <class name="org.jboss.seam.test.unit.PageflowTest">
+        <test-method status="PASS" signature="testPageflowWithStartPage()" name="testPageflowWithStartPage" duration-ms="49" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testPageflowWithStartPageAttribute()" name="testPageflowWithStartPageAttribute" duration-ms="63" started-at="2011-01-02T17:55:27Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+        <test-method status="PASS" signature="testPageflowWithStartState()" name="testPageflowWithStartState" duration-ms="45" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:26Z">
+        </test-method>
+        <test-method status="PASS" signature="testOrderPageflow()" name="testOrderPageflow" duration-ms="60" started-at="2011-01-02T17:55:26Z" finished-at="2011-01-02T17:55:27Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

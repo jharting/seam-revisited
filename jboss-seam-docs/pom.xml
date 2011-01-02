@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>jboss-seam-parent</artifactId>
+		<groupId>org.jboss.seam</groupId>
+		<version>2.3-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.jboss.seam</groupId>
+  <artifactId>jboss-seam-docs</artifactId>
+  <version>${version.seam}</version>
+  <packaging>jar</packaging>
+
+  <name>jboss-seam-docs</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+  </dependencies>
+</project>
